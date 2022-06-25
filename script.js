@@ -1,6 +1,9 @@
 const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-understanding/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
+//precisa passar essas duas variáveis para que funcione, não irei deixar elas explícitas aqui por segurança
+const ApiKey = "";
+const Url = "";
 
 const naturalLanguageUnderstanding = new NaturalLanguageUnderstandingV1({
   version: '2022-04-07',
