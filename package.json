@@ -1,0 +1,16 @@
+{
+  "name": "classificador-de-aplicativos",
+  "version": "1.0.0",
+  "description": "um classificador de aplicativos o qual utiliza-se da plataforma IBM para que seja possível analisar os comentários de algum aplicativo da GooglePlayStore",
+  "main": "script.js",
+  "scripts": {
+    "test": "node script.js"
+  },
+  "author": "kabu",
+  "license": "ISC",
+  "dependencies": {
+    "ibm-watson": "^7.0.0",
+    "node-fetch": "^2.6.6",
+    "node-html-crawler": "^1.2.3"
+  }
+}
